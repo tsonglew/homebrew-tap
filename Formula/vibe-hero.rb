@@ -1,8 +1,8 @@
 class VibeHero < Formula
   desc "Your MacBook notch is a pixel-art RPG, and your token usage is the sword"
   homepage "https://github.com/tsonglew/VibeHero"
-  url "https://github.com/tsonglew/VibeHero/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "7937cfa2ad7654d71d3044ddc4df5cec8005cea4503489725105304232fd5821"
+  url "https://github.com/tsonglew/VibeHero/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "f487c01e2338d9026f9ddfafd1cb5d5b1d2c82da9c3dba3b4a34052ef8d885bb"
   license "MIT"
 
   depends_on macos: :sonoma
