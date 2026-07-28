@@ -1,18 +1,14 @@
-# Tsonglew Tap
+# tsonglew's Homebrew Tap
 
-## How do I install these formulae?
+## Vibe Hero
 
-`brew install tsonglew/tap/<formula>`
+Your MacBook notch is a pixel-art RPG, and your token usage is the sword.
 
-Or `brew tap tsonglew/tap` and then `brew install <formula>`.
-
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "tsonglew/tap"
-brew "<formula>"
+```sh
+brew install tsonglew/tap/vibe-hero
+cp -R "$(brew --prefix vibe-hero)/Vibe Hero.app" /Applications
+open "/Applications/Vibe Hero.app"
 ```
 
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+Built from source on your machine — unsigned, no Gatekeeper prompt. See
+[tsonglew/VibeHero](https://github.com/tsonglew/VibeHero) for details.
