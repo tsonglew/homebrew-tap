@@ -1,5 +1,15 @@
 # tsonglew's Homebrew Tap
 
+## Dutis
+
+Manage default applications for file extensions on macOS.
+
+```sh
+brew install tsonglew/tap/dutis
+```
+
+See [tsonglew/dutis](https://github.com/tsonglew/dutis) for usage and release notes.
+
 ## Vibe Hero
 
 Your MacBook notch is a pixel-art RPG, and your token usage is the sword.
