@@ -1,8 +1,8 @@
 class Dutis < Formula
   desc "Manage default applications for file extensions on macOS"
   homepage "https://github.com/tsonglew/dutis"
-  url "https://github.com/tsonglew/dutis/releases/download/v2.22.0/dutis-v2.22.0-macos-universal.tar.gz"
-  sha256 "05deec5b8274d7431a092919acbc775d2213512f7e42b260d757293809d0be81"
+  url "https://github.com/tsonglew/dutis/releases/download/v2.23.0/dutis-v2.23.0-macos-universal.tar.gz"
+  sha256 "de9a54bdc7a67740ed73cd32170acfa81d412a0ce98cfcba37a400f18454b9f0"
   license "MIT"
 
   depends_on "duti"
