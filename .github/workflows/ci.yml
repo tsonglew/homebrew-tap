@@ -31,7 +31,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Cache Homebrew Ruby gems
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: ${{ steps.setup-homebrew.outputs.gems-path }}
           key: ${{ runner.os }}-rubygems-${{ steps.setup-homebrew.outputs.gems-hash }}
